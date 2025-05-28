@@ -18,19 +18,19 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7755606313:AAGayGjJ1y1acZwLATLmpTLUD7-lidZ9njE")
-APP_ID = int(os.environ.get("APP_ID", "26534532")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "d7aa913f93f7068094cd1cb51a50fc5a") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7626880257:AAHXTKurthzILMLYajlNZXhBg_0J9c6tr7g")
+APP_ID = int(os.environ.get("APP_ID", "26413138")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "4a5c0804c9f873bc56d0257afba8f5ea") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002172427490")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "@thakur_m_10") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "5764304134")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002679399988")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "@The_mask_guys") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "8071071515")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8080")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://chamelisarkar235:1hI4NRjIF4EPYClS@cluster0.ck9u0.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster8090")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster8091")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/emitingstars_botz")
@@ -66,7 +66,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /admins :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ᴀᴅᴍɪɴs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b> ʙʏ 𝙿𝚘𝚜𝚝 𝚋𝚢 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊 𝖩𝗈𝗂𝗇 Us ~ @movie_talk_backup </b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b> ʙʏ 𝙿𝚘𝚜𝚝 𝚋𝚢 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊 𝖩𝗈𝗂𝗇 Us ~ @neon_weebs </b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
